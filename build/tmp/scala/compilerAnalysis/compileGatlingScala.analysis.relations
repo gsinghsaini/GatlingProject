@@ -1,0 +1,16 @@
+products:
+   src/gatling/scala/techietester/ComputerDatabase.scala -> build/classes/gatling/techietester/ComputerDatabase$AddNewComputer$.class
+   src/gatling/scala/techietester/ComputerDatabase.scala -> build/classes/gatling/techietester/ComputerDatabase$LoadHomePage$.class
+   src/gatling/scala/techietester/ComputerDatabase.scala -> build/classes/gatling/techietester/ComputerDatabase.class
+binary dependencies:
+   src/gatling/scala/techietester/ComputerDatabase.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
+   src/gatling/scala/techietester/ComputerDatabase.scala -> /Users/gsinghsaini/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-commons/2.2.2/4f92ff0edec4c13b32c26058b4fcf8195b283142/gatling-commons-2.2.2.jar
+   src/gatling/scala/techietester/ComputerDatabase.scala -> /Users/gsinghsaini/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-core/2.2.2/f06b4510c0d0e4f40d6985a918a17a8c6025cab9/gatling-core-2.2.2.jar
+   src/gatling/scala/techietester/ComputerDatabase.scala -> /Users/gsinghsaini/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-http/2.2.2/fc069524e8d8cf57fd75d488d48019dcac080c8c/gatling-http-2.2.2.jar
+   src/gatling/scala/techietester/ComputerDatabase.scala -> /Users/gsinghsaini/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.8/ddd5a8bced249bedd86fb4578a39b9fb71480573/scala-library-2.11.8.jar
+source dependencies:
+external dependencies:
+class names:
+   src/gatling/scala/techietester/ComputerDatabase.scala -> techietester.ComputerDatabase
+   src/gatling/scala/techietester/ComputerDatabase.scala -> techietester.ComputerDatabase$AddNewComputer$
+   src/gatling/scala/techietester/ComputerDatabase.scala -> techietester.ComputerDatabase$LoadHomePage$
