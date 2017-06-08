@@ -1,5 +1,0 @@
-RUN	techietester.ComputerDatabase		computerdatabase	1496836529625	 	2.0
-USER	Basic Simulation	1	START	1496836530112	1496836530112
-REQUEST	Basic Simulation	1		load home page	1496836530128	1496836530168	OK	 
-REQUEST	Basic Simulation	1		load home page Redirect 1	1496836530177	1496836530188	OK	 
-USER	Basic Simulation	1	END	1496836530112	1496836540307
