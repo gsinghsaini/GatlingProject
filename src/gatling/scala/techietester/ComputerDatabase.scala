@@ -16,12 +16,17 @@ class ComputerDatabase extends Simulation {
     val homePage = exec(http("load home page").get("/").check(status.is(200)))
   }
 
-  object AddNewComputer{
-    val newComp = repeat(4){
-      feed(csvFeeder)
-      exec(http("name-${companyName},introduced-${introducedDate},discontinued-${discontinuedDate},company-${companyID}").post("/computers").check(status.is(200)))}
-    //.formParam("name", "1A").formParam("introduced", "2016-01-01").formParam("discontinued", "2017-01-01").formParam("company", "1"))}
-    //exec(http("add new computer-${computerName}-${introducedDate}-${discontinuedDate}-${companyID}").post("/computers").check(status.is(200)))}
+  object AddNewComputer {
+    val newComp = repeat(4) {
+      feed(csvFeeder).
+        exec(http("CreateNewComputer")
+          .post("/computers")
+          .formParam("name", "${computerName}")
+          .formParam("introduced", "${introducedDate}")
+          .formParam("discontinued", "${discontinuedDate}")
+          .formParam("company", "${companyID}")
+          .check(status.is(200)))
+    }
   }
 
   val scn = scenario("Basic Simulation")
